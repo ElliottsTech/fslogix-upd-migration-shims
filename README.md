@@ -4,10 +4,6 @@ Migrate RDS **User Profile Disks (UPD)** to **FSLogix Profile Containers** on se
 **don't have the Hyper-V platform installed** — using the (now otherwise unobtainable) Microsoft
 `FSLogixMigration` module over a small set of **diskpart-backed shims**.
 
-Built and battle-tested during a real MSP migration of a Server 2022 RDS farm (single session
-host, ~27 profiles), where five conversion attempts produced one working formula — this repo is
-that formula, packaged.
-
 ## Why this exists
 
 Three problems make the "standard" UPD→FSLogix migration impossible on a typical RDS backend
